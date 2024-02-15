@@ -1,0 +1,18 @@
+Step 1:
+Select k data points as the initial cluster centres.(Ramdomly)
+Step 2:
+Find the euclidean distance of each data point 
+towards each cluster centres.
+Step 3:
+Assign each data point to the nearest cluster.
+Step 4:
+Recompute the new cluster centres by taking mean of the 
+data points belonging to that cluster.
+Step 5:
+Repeat step 2 to 4.
+Step 6:
+Stop the process when zero convergence is reached.
+
+End result:
+You get the data points clustered into k clusters.
+
